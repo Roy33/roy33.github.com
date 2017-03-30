@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-30 19:42:06
+ * @version $Id$
+ */
+#box{
+	width: 300px;
+	height: 460px;
+	border: 1px solid gray;
+	margin-left: 100px;
+	background: #FFDEAD;
+}
+#first{
+    width: 300px;
+    height: 30px;
+	background: pink;
+	}
+#second{
+    width: 300px;
+    height: 60px;
+	background: #FFDEAD;
+}
+#third{
+	width: 300px;
+    height: 100px;
+	background: pink;
+}
+#forth{
+	width: 300px;
+    height: 30px;
+	background: #FFDEAD;
+
+}
+#fifth{
+	width: 300px;
+    height: 210px;
+    float: left;
+	background: pink;
+    margin-top: 10px;
+	padding: 0px;
+}
+.text1{
+	width: 280px;
+	height: 20px; 
+	border: 1px solid gray;
+	margin-top: 10px;
+	margin-bottom: 2px;
+	margin-left: 5px;
+}
+.text2{
+	width: 210px;
+	height: 20px; 
+	border: 1px solid gray;
+	margin:5px;
+}
+
+.button{
+    padding-left: 10px; 
+    padding-right: 10px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #FFDEAD;
+}
+.rect1{
+	width: 118px;
+	height: 138px;
+	border: 1px dashed gray;
+	float: left;
+	text-align:center;
+	
+}
+.rect1 img{
+	margin-top: 20px;
+}
+.rect1 p{
+	font-size: small;
+	margin-top: 0px;
+}
+.rect {
+	margin: 0px;
+	width: 58px;
+	height: 68px;
+	border: 1px dashed gray;
+	float: left;
+	padding: 0px;
+	text-align:center;
+}
+.rect img{
+	margin-top: 5px;
+}
+.rect p{
+	font-size: small;
+	margin-top: 0px;
+}

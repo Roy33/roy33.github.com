@@ -20,7 +20,7 @@ width: 800px;
 	border-bottom: solid;
 	margin: 10px;	
 }*/
-/*.news {
+.news {
 	width: 660px;
 	height: 380px;
 	border: solid 1px black;
@@ -40,7 +40,7 @@ width: 800px;
 	background-color: gray;
 	float: left;
 	margin: 10px;
-}*/
+}
 .box{
 	width: 300px;
 	height: 13px;
