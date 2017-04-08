@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-31 11:59:14
+ * @version $Id$
+ */
+#tbl{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
