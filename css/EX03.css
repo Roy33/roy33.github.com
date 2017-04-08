@@ -53,6 +53,7 @@
  }
  #first .headline li span:hover{
  	background: pink;
+ 	font-weight: bold;
  }
 
 #second{
@@ -140,7 +141,7 @@
 	margin-top: 25px;
 }
 .big-rect p{
-	font-size: small;
+	font-size: xx-small;
 	margin-top: 0px;
 }
 .small-rect {
@@ -169,6 +170,6 @@
 	margin-bottom: 0px;
 }
 .small-rect p,.small-rect-side p{
-	font-size: small;
+	font-size: xx-small;
 	margin-top: 0px;
 }

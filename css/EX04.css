@@ -212,7 +212,7 @@
  	/*background: white;*/
  	margin: 0px 4px;
  	padding-left: 5px;
- 	font-size: xx-small;
+ 	font-size: small;
  	font-weight: bolder;
  	color: black;
  	font-family: "Microsoft YaHei","黑体","宋体",sans-serif;
@@ -225,10 +225,14 @@
  	/*background: white;*/
  	margin: 0px 4px;
  	padding-left: 5px;
- 	font-size: xx-small;
+ 	font-size: small;
  	font-weight: bolder;
  	color: #f70b42;
  	font-family: "Microsoft YaHei","黑体","宋体",sans-serif;
+ }
+ .ui-page3-box-bottom-p2-span{
+ 	color: #a3a7ac;
+ 	font-weight: normal;
  }
  .ui-page3-box-bottom-p3{
  	box-sizing: border-box;
@@ -242,29 +246,29 @@
  	color: #f70b42;
  	font-family: "Microsoft YaHei","黑体","宋体",sans-serif;
  }
- .ui-page3-box-bottom-p3-span2{
- 	font-size: xx-small;
- 	font-weight: normal;
- 	color: black;
- 	padding-left: 1px;
- 	text-decoration:line-through;
- }
- .ui-page3-box-bottom-p3-span3{
- 	font-size: large;
- 	color: #f70b42;
- 	font-weight: bolder;
- 	float: right;
- 	padding-top: 12px
-
- }
  .ui-page3-box-bottom-p3-span1-before{
  	font-size: small;
  	font-weight: bolder;
  	color: #f70b42;
  }
+ .ui-page3-box-bottom-p3-span2{
+ 	font-size: xx-small;
+ 	font-weight: normal;
+ 	color: #a3a7ac;
+ 	padding-left: 1px;
+ 	text-decoration:line-through;
+ }
+ .ui-page3-box-bottom-p3-span3{
+ 	font-size: small;
+ 	color: #f70b42;
+ 	font-weight: bolder;
+ 	float: right;
+ 	padding-top: 20px
+
+ }
  .ui-page3-box-bottom-p3-span3-after{
  	font-size: xx-small;
  	font-weight: normal;
- 	color: black;
+ 	color: #a3a7ac;
  	/*margin-left: -8px;*/
  }
