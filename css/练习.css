@@ -45,3 +45,44 @@
 	margin: 65px auto;
 	background: lightgray;
 }*/
+
+/*jQuery的简单使用 8.1练习
+.btn{
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	background: gray;
+	animation: 1000;
+}
+.btn:hover{
+	background: orange;
+}
+.box1{
+	float: left;
+	width: 100px;
+	height: 100px;
+	background: pink;
+	margin: 10px;
+}
+.box2{
+	float: left;
+	width: 100px;
+	height: 100px;
+	background: pink;
+	margin: 10px;
+	text-align: center;
+}
+.box3{
+	float: left;
+	width: 100px;
+	height: 100px;
+	background: pink;
+	margin: 10px;
+}
+.box4{
+	float: left;
+	width: 100px;
+	height: 100px;
+	background: pink;
+	margin: 10px;
+}*/
