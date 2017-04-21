@@ -5,3 +5,41 @@
  * @date    2017-04-13 14:16:13
  * @version $Id$
  */
+ .ui-head{
+ 	width: 600px;
+ 	height: 100px;
+ 	background: pink;
+ 	margin-left: 320px;
+ 	margin-top: 50px;
+ }
+ .ui-body{
+ 	width: 600px;
+ 	height: 260px;
+ 	background: #FFF68F;
+ 	margin-left: 320px;
+ }
+.ui-body-timeTable-title{
+	width: 600px;
+	height: 20px;
+}
+.ui-body-timeTable-title-tr{
+	width: 600px;
+	height: 20px;
+	background: #cedce8;
+	border: 1px solid black;
+	text-align: center;
+}
+.ui-body-timeTable-place{
+	width: 600px;
+	height: 50px;
+	background: orange;
+}
+.ui-body-timeTable-route{
+	width: 600px;
+	height: 40px;
+}
+.ui-body-timeTable-route-tr{
+	width: 600px;
+	height: 40px;
+	background: #D8BFD8;
+}
