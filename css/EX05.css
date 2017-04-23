@@ -6,40 +6,190 @@
  * @version $Id$
  */
  .ui-head{
- 	width: 600px;
- 	height: 100px;
- 	background: pink;
+ 	box-sizing: border-box;
+ 	width: 700px;
+ 	height: 105px;
  	margin-left: 320px;
  	margin-top: 50px;
+ 	border-bottom: 1px solid lightgray;
  }
+ .ui-head-title{
+ 	box-sizing: border-box;
+ 	width: 700px;
+ 	height: 27px;
+ 	border-bottom: 5px solid #238dc8;
+ 	display: flex;
+ }
+ .ui-head-title-content{
+ 	width: 85px;
+ 	height: 22px;
+ 	border-radius:4px 4px 0 0;
+ 	background: #238dc8;
+ 	text-align: center;
+ 	padding-top: 3px;
+ 	color: white;
+ 	font-size: 13px;
+ 	font-weight: 600;
+ }
+ .ui-head-title-sign{
+ 	width: 18px;
+ 	height: 18px;
+ 	border-radius:2px;
+ 	background: #fd6710;
+ 	text-align: center;
+ 	margin-left: 5px;
+ 	margin-top: 1px;
+ 	color: white;
+ 	font-size: 14px;
+ }
+ .ui-head-content{
+ 	box-sizing: border-box;
+ 	width: 700px;
+ 	height: 50px;
+ 	border-left: 1px solid lightgray;
+ 	border-right: 1px solid lightgray;
+ 	border-bottom: 1px solid lightgray;
+ 	background: #f2fdfd;
+
+ }
+ .ui-head-tail{
+ 	box-sizing: border-box;
+ 	width: 700px;
+ 	height: 27px;
+ 	border-left: 1px solid lightgray;
+ 	border-right: 1px solid lightgray;
+ 	padding-top: 5px;
+ 	background: #fdf7cb;
+ 	display: flex;
+ 	flex-direction: row-reverse;
+ }
+
  .ui-body{
- 	width: 600px;
- 	height: 260px;
- 	background: #FFF68F;
+ 	width: 700px;
+ 	height: 200px;
  	margin-left: 320px;
+ 	margin-top: 5px;
  }
 .ui-body-timeTable-title{
-	width: 600px;
-	height: 20px;
-}
-.ui-body-timeTable-title-tr{
-	width: 600px;
-	height: 20px;
+	width: 700px;
+	height: 18px;
 	background: #cedce8;
-	border: 1px solid black;
 	text-align: center;
+	font-size: x-small;
+	display: flex;
 }
 .ui-body-timeTable-place{
-	width: 600px;
+	box-sizing: border-box;
+	width: 700px;
 	height: 50px;
-	background: orange;
+	background: #f2f2f2;
+	vertical-align: middle;
+	border-top: 2px solid white;
+	border-left: 1px solid #c0c0c0;
+	border-right: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
 }
 .ui-body-timeTable-route{
-	width: 600px;
+	width: 700px;
 	height: 40px;
+	display: flex;
 }
-.ui-body-timeTable-route-tr{
-	width: 600px;
-	height: 40px;
-	background: #D8BFD8;
+.ui-body-timeTable-route-column1{
+	border-right: 1px solid #c0c0c0;
+	width: 58%;
+	display: flex;
+}
+.ui-body-timeTable-route-column1-span1{
+	font-size: 13px;
+	font-weight: 600;
+	display: block; 
+	margin-left: 10px;
+	margin-bottom: 0px;
+	margin-top: 3px;
+}
+.ui-body-timeTable-route-column1-span2{
+	font-size: 13px;
+	display: block;
+	margin-left: 35px;
+}
+.ui-body-timeTable-route-column1-railway{
+	margin-left: 20px;
+	width:2px;
+	height: 36px;
+	background: linear-gradient(#96c7d8 45%, white 45%); 
+    background-size: 5px 14px;
+    border: 2px solid #96c7d8;
+}
+.fa-long-arrow-down{
+	color: black;
+	margin-left: 30px;
+	margin-top: 14px;
+	font-size: 16px;
+}
+.ui-body-timeTable-route-column1-train_name{
+	margin-top: 10px;
+	font-size: 13px;
+	margin-left: 10px;
+	color: #0069a3;
+}
+.ui-body-timeTable-route-column2{
+	border-right: 1px solid #c0c0c0;
+	width: 10%;
+}
+.ui-body-timeTable-route-column3{
+	border-right: 1px solid #c0c0c0;
+	width: 9%;       
+}
+.ui-body-timeTable-route-column3-text{
+	font-weight: 600;
+	font-size: 14px;
+	display: block;
+	margin-top: 11px;
+	margin-left: 5px;
+}
+.ui-body-timeTable-route-column4{
+	border-right: 1px solid #c0c0c0;
+	width: 13%;
+}
+.ui-body-timeTable-route-column4-text1{
+	font-size: 13px;
+	display: block; 
+	margin-left: 25px;
+	margin-top: 3px;
+}
+.ui-body-timeTable-route-column4-text2{
+	font-size: 13px;
+	display: block;
+	margin-left: 22px;
+}
+.ui-body-timeTable-route-column5{
+	width: 10%;
+}
+.ui-body-timeTable-route-column5-text{
+	font-size: 12px;
+	margin-left: 10px;
+	display: block;
+	margin-top: 13px;
+}
+.fa-mixcloud{
+	color: #48b3e7;
+	margin-left: 80px;
+	margin-top: 15px;
+}
+.ui-body-timeTable-place1{
+	box-sizing: border-box;
+	width: 700px;
+	height: 50px;
+	background: #f2f2f2;
+	border: 1px solid #c0c0c0;
+}
+.ui-body-timeTable-place1-time{
+	font-size: 13px;
+	margin-left: 30px;
+    margin-top: 15px;
+}
+.ui-body-timeTable-place1-text{
+	font-weight: 600;
+	margin-left: 5px;
+	 margin-top: 13px;
 }
