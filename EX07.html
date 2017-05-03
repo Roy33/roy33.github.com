@@ -1,14 +1,407 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>EX07</title>
-<meta name="description" content="">
-<meta name="keywords" content="">
-<link href="" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EX07</title>
+  <link href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" type="text/css" href="css/EX07.css">
 </head>
+
 <body>
-    
+<!-- 手机界面 -->
+    <div class="phone_page container">
+      <div class="phone_page-row1 row">
+          <div class="row1-3 col-xs-3">
+            <div class="dropdown">
+            <p class="dropdown-toggle" data-toggle="dropdown">XX&nbsp<span class="glyphicon glyphicon-menu-down"></span></p>
+            <ul class="dropdown-menu">
+             <li><a>杭州</a></li>
+             <li><a>北京</a></li>
+             <li><a>上海</a></li>
+            </ul>
+         </div>
+          </div>
+          <div class="row1-8 col-xs-8">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" class="search_text" placeholder="XXXXXXX">
+          </div>
+          <div class="row1-1 col-xs-1">
+           <i class="fa fa-user-o" style="font-size: 25px;color: white;"></i>
+           <p class="name">XX</p>
+          </div>
+     </div>
+
+
+     <div class="phone_page-row2-1 row">
+          <div class="row2-3 col-xs-3">
+            <div class="circle1"></div>
+            <p class="row2-font">XX</p>
+          </div>
+          <div class="row2-3 col-xs-3">
+            <div class="circle2"></div>
+            <p class="row2-font">XX</p>
+          </div>
+          <div class="row2-3 col-xs-3">
+            <div class="circle3"></div>
+            <p class="row2-font">XX</p>
+          </div>
+          <div class="row2-3 col-xs-3">
+            <div class="circle1"></div>
+            <p class="row2-font">XX</p>
+          </div>
+     </div>
+     <div class="phone_page-row2-2 row">
+          <div class="row2-3 col-xs-3">
+            <div class="circle4"></div>
+            <p class="row2-font">XX</p>
+          </div>
+          <div class="row2-3 col-xs-3">
+            <div class="circle5"></div>
+            <p class="row2-font">XX</p>
+          </div>
+          <div class="row2-3 col-xs-3">
+            <div class="circle4"></div>
+            <p class="row2-font">XX</p>
+          </div>
+          <div class="row2-3 col-xs-3">
+            <div class="circle1"></div>
+            <p class="row2-font">XX</p>
+          </div>
+     </div>
+
+
+     <div class="phone_page-row3 row">
+          <div class="row3-4 col-xs-4">
+            <div class="row3-first_col">
+              <p class="row3-first_col-bold">XXXX</p>
+              <p class="row3-first_col-small">XXXXXXXXX</p>
+              <div class="row3-first_col-rect"></div>
+            </div>
+          </div>
+          <div class="row3-8 col-xs-8">
+            <div class="row3-8-row1 row">
+              <div class="row3-8-row1-5 col-xs-5">
+                <p class="row3-8-row1-5-bold">XXXX</p>
+                <p class="row3-8-row1-5-small">XXXXXXXXX</p>
+              </div>
+              <div class="row3-8-row1-7 col-xs-7">
+                <div class="row3-8-row1-7-rect"></div>
+              </div>
+            </div>
+            <div class="row3-8-row2 row">
+              <div class="row3-8-row2-col1 col-xs-6">
+                <p class="row3-8-row2-col1-bold">XXXX</p>
+                <div class="row3-8-row2-col1-rect"></div>
+              </div>
+              <div class="row3-8-row2-col2 col-xs-6">
+                <p class="row3-8-row2-col2-bold">XXXX</p>
+                <p class="row3-8-row2-col2-small">XXXXXXXXX</p>
+                <p class="row3-8-row2-col2-time"><span class="row3-span1">10</span>:<span class="row3-span1">56</span>:<span class="row3-span1">24</span></p>
+              </div>
+            </div>
+         </div>
+     </div>
+
+
+     <div class="phone_page-row4 row">
+          <div class="row4-col1 col-xs-6">
+            <div class="row4-col1-row row">
+              <div class="col-xs-6">
+                <p class="row4-col1-row-bold">XXXX</p>
+                <p class="row4-col1-row-small">XXXXXXX</p>
+              </div>
+              <div class="col-xs-6">
+                <div class="row4-col1-row-rect"></div>
+
+              </div>
+            </div>
+          </div>
+          <div class="row2-col2 col-xs-6">
+            <div class="row4-col1-row row">
+              <div class="col-xs-6">
+                <p class="row4-col2-row-bold">XXXX</p>
+                <p class="row4-col1-row-small">XXXXXXX</p>
+              </div>
+              <div class="col-xs-6">
+                <div class="row4-col1-row-rect"></div>
+              </div>
+            </div>
+          </div>
+     </div>
+
+
+     <div class="phone_page-row5 row">
+          <div class="row5 col-xs-12">
+               <div class="row5-title">XXXX</div>
+               <div class="row5-first">
+                <div class="row">
+                  <div class="col-xs-4">
+                    <div class="row5-first-rect">
+                      <div class="phone_tag"></div>
+                      <div class="phone_tag_text">免预约</div>
+                    </div>
+                  </div>
+                  <div class="col-xs-5">
+                    <p class="row5-first-p1">XXXX</p>
+                    <p class="row5-first-p2">XXXXXXXXXXXXXX</p>
+                    <p class="row5-first-p3"><span class="row5-span1">XX</span><span class="row5-span2">元</span><span class="row5-span3">多优惠+</span></p>
+                  </div>
+                  <div class="col-xs-3">
+                    <p class="row5-first-sale">已售549516</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row5-first">
+                <div class="row">
+                  <div class="col-xs-4">
+                    <div class="row5-first-rect">
+                      <div class="phone_tag"></div>
+                      <div class="phone_tag_text">免预约</div>
+                    </div>
+                  </div>
+                  <div class="col-xs-5">
+                    <p class="row5-first-p1">XXXX</p>
+                    <p class="row5-first-p2">XXXXXXXXXXXXXX</p>
+                    <p class="row5-first-p3"><span class="row5-span1">XX</span><span class="row5-span2">元</span><span class="row5-span3">多优惠+</span></p>
+                  </div>
+                  <div class="col-xs-3">
+                    <p class="row5-first-sale">已售99651</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row5-second">
+                <div class="row">
+                  <div class="col-xs-4">
+                    <div class="row5-first-rect">
+                      <div class="phone_tag"></div>
+                      <div class="phone_tag_text">免预约</div>
+                    </div>
+                  </div>
+                  <div class="col-xs-5">
+                    <p class="row5-first-p1">XXXX</p>
+                    <p class="row5-first-p2">XXXXXXXXXXXXXXXXXXXX</p>
+                    <p class="row5-first-p3"><span class="row5-span1">XX</span><span class="row5-span2">元</span><span class="row5-second-span3">门市价:XX元</span></p>
+                  </div>
+                  <div class="col-xs-3">
+                    <p class="row5-first-sale">已售35963</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row5-third">
+                <div class="row">
+                  <div class="col-xs-4">
+                    <div class="row5-first-rect"></div>
+                  </div>
+                  <div class="col-xs-5">
+                    <p class="row5-first-p1">XXXX</p>
+                    <p class="row5-first-p2">XXXXXXXXXXXXXXXXXXXX</p>
+                    <p class="row5-first-p3"><span class="row5-span1">XXX</span><span class="row5-span2">元</span><span class="row5-third-span3">门市价:XX元</span></p>
+                  </div>
+                  <div class="col-xs-3">
+                    <p class="row5-first-sale">已售738</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+     </div>
+
+
+     <div class="phone_page-row6 row">
+       <p class="row6-text">XXXXXX <span class="arrow glyphicon glyphicon-menu-right"></span></p> 
+     </div>
+    </div>
+<!-- 电脑界面 -->
+<div class="computer_page container-fluid">
+    <div class="row title">
+        <div class="col-md-9"></div>
+        <div class="col-md-2 title-text" align="right">登录 | 注册</div>
+    </div>
+    <div class="row first">
+        <div class="col-md-1"></div>
+        <div class="col-md-1 first-text">
+           <div class="first-text-box">首页</div>
+        </div>
+        <div class="col-md-1 first-text">
+            <select name="" id="select-text">
+            <option value="">讲座</option></select>
+        </div>
+        <div class="col-md-1 first-text">悦读</div>
+        <div class="col-md-1 first-text">创意榜</div>
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+        <input type="text" class="form-control">
+        <select name="" id="first-search"><option value="">文章</option></select>
+        <div class="first-find"><span class="glyphicon glyphicon-search"></span></div>
+        </div>
+    </div>
+    <div class="row second" align="center">
+        <div class="col-md-1"></div>
+        <div class="col-md-6 second-left">
+           <div class="second-left-rect"></div>
+        </div>
+        <div class="col-md-4 second-right">
+         <div class="second-right-box">
+            <div class="row second-right-top" align="center">
+            <h5 class="second-text">XXXXXXXXXXXXXXXXXXXX</h5></div>
+            <div class="row second-right-mid" align="center"><div class="second-right-btn"></div></div>
+            <div class="row second-right-sub">
+                <div class="col-md-6 second-right-sub-left" align="right">
+                    <span class="second-text2">330</span><span class="second-text3"> XXXX</span></div>
+                <div class="col-md-6 second-right-sub-right" align="left">
+                <span class="second-text2">280</span><span class="second-text3"> XXXX</span></div>
+            </div>
+            <div class="row second-right-sub2">
+                <div class="col-md-6 second-right-sub-left" align="right">
+                    <span class="second-text2">650</span><span class="second-text3"> XXXX</span></div>
+                <div class="col-md-6 second-right-sub-right" align="left">
+                <span class="second-text2">1144</span><span class="second-text3"> XXXX</span></div>
+            </div>
+        </div>
+        </div>
+    </div>    
+
+    <div class="row third">
+        <div class="col-md-1"></div>
+        <div class="col-md-6"><h4>XXXXX</h4></div>
+        <div class="col-md-2"><h4>XXXX</h4></div>
+        <div class="col-md-2 third-right" align="right"><span class="third-word">更多 ></span></div>
+    </div>
+
+    <div class="row forth">
+        <div class="col-md-1"></div>
+        <div class="col-md-6 forth-left">
+            <div class="row forth-left1">
+                <div class="col-md-8 forth-left1-1">
+                <div class="row forth-left-first">
+                <span class="forth-word1">XXXXXXXXXXXXXXXXXXXXXXX</span></div>
+                <div class="row forth-left-sec"><span class="forth-word2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span>
+                </div>
+                <div class="row forth-left-sub">
+                    <span class="forth-word3">772阅读 | 0讨论</span>
+                </div>
+                </div>
+                <div class="col-md-4 forth-left1-2">
+                <div class="row " align="center"><div class="forth-left-top-right"></div></div>
+                <div class="row forth-left-top-sec"><h6>XXXXXXXXXXXXXXX</h6></div>
+                <div class="row forth-left-top-third">
+                    <span class="forth-word3">3376阅读 | 2讨论</span>
+                </div>
+                </div>
+            </div>
+            <div class="row forth-left2">
+                <div class="col-md-4 forth-left2-left">
+                   <div class="row forth-left2-top"><div class="forth-left2-box"></div></div>
+                   <div class="row forth-left2-mid">
+                   <div class="forth-left2-ppt"><span class="forth-word4">PPT</span></div></div>
+                   <div class="row forth-left-mid2"><span>XXXXXXXXXXX</span></div>
+                   <div class="row forth-left-sub">
+                   <span class="forth-word3">34839阅读 | 250下载</span></div>
+                </div>
+                <div class="col-md-4 forth-left2-left">
+                <div class="row forth-left2-top"><div class="forth-left2-box"></div></div>
+                <div class="row forth-left2-mid">
+                <div class="forth-left2-ppt"><span class="forth-word4">PPT</span></div></div>
+                <div class="row forth-left-mid2"><span>XXXXXXXXXXX</span></div>
+                <div class="row forth-left-sub">
+                <span class="forth-word3">35545阅读 | 160下载</span></div></div>
+                <div class="col-md-4 ">
+                <div class="row forth-left2-top"><div class="forth-left2-box"></div></div>
+                <div class="row forth-left2-mid">
+                <div class="forth-left2-ppt"><span class="forth-word4">PPT</span></div></div>
+                <div class="row forth-left-mid2"><span>XXXXXXXXXXX</span></div>
+                <div class="row forth-left-sub"><span class="forth-word3">39636阅读 | 317下载</span></div></div>
+            </div>
+            <div class="row forth-left3">
+                <div class="col-md-6 forth-left3-left">
+                <div class="row forth-left3-left-top"><div class="forth-left3-box"></div></div>
+                <div class="row forth-left3-left-tit"><span>XXXXXXXXXXX</span></div>
+                <div class="row forth-left3-left-sub"><span class="forth-word3">3614阅读 | 1讨论</span></div></div>
+                <div class="col-md-6">
+                <div class="row forth-left3-left-top"><div class="forth-left3-box"></div></div>
+                <div class="row forth-left3-left-tit"><span>XXXXXXXXXXX</span></div>
+                <div class="row forth-left3-left-sub"><span class="forth-word3">3614阅读 | 1讨论</span></div></div>
+            </div>
+            <div class="row forth-left4">
+                <div class="col-md-4 forth-left2-left">
+                <div class="row forth-left2-top">
+                <div class="forth-left2-box"><span class="glyphicon glyphicon-play-circle"></span></div></div>
+                <div class="row forth-left-4-mid"><span>XXXXXXXXXXX</span></div>
+                <div class="row forth-left-sub">
+                <span class="forth-word3">894播放 | 0讨论</span></div></div>
+                <div class="col-md-4 forth-left2-left">
+                <div class="row forth-left2-top">
+                <div class="forth-left2-box"><span class="glyphicon glyphicon-play-circle"></span></div></div>
+                <div class="row forth-left-4-mid"><span>XXXXXXXXXXX</span></div>
+                <div class="row forth-left-sub">
+                <span class="forth-word3">794播放 | 0讨论</span></div></div>
+                <div class="col-md-4 ">
+                <div class="row forth-left2-top">
+                <div class="forth-left2-box"><span class="glyphicon glyphicon-play-circle"></span></div></div>
+                <div class="row forth-left-4-mid"><span>XXXXXXXXXXX</span></div>
+                <div class="row forth-left-sub"><span class="forth-word3">729播放 | 0讨论</span></div></div>
+            </div>
+            <div class="row forth-left5">
+                <div class="col-md-4 forth-left5-left"><div class="forth-left5-left-box"></div></div>
+                <div class="col-md-8 forth-left5-right">
+                    <div class="row forth-left5-right-tit"><span class="forth-word5">XXXXXXXX</span></div>
+                    <div class="row forth-left5-right-cont"><span class="forth-word2">&nbsp&nbsp&nbsp&nbsp&nbspXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span></div>
+                    <div class="row forth-left5-right-sub"><span class="forth-word3">3276阅读 | 2讨论</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row forth-left6">
+                <div class="row forth-left6-tit"><span>XXXXXXXXXXXXX</span></div>
+                <div class="row forth-left6-cont"><span class="forth-word2">&nbsp&nbsp&nbsp&nbsp&nbspXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span></div>
+                <div class="row forth-left6-sub"><span class="forth-word3">4006阅读 | 13讨论</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 forth-right">
+          <div class="forth-right1">
+            <div class="forth-right-item">
+            <div class="forth-right-item-1">
+            <span class="oblique-text">即将开始</span><div class="forth-right-item-pic"></div>
+            <div class="forth-right-item-tit">XXXXXXXXXXXXXXXXXXXX</div>
+            <div class="forth-right-item-time">4月9日 13:00 - 18:00</div>
+            <div class="forth-right-item-cont">XXXXXXXXXXXXXXXXXXXXXXX</div>
+            <div class="ui-left-tip"><span class="forth-word3">2人已报名 | 2人关注</span></div>
+            </div>
+            </div>
+         </div>
+         <div class="forth-right2">
+            <div class="forth-right-item">
+            <div class="forth-right-item-1">
+            <span class="oblique-text">即将开始</span><div class="forth-right-item-pic"></div>
+            <div class="forth-right-item-tit">XXXXXXXXXXXXXXXXXXXX</div>
+            <div class="forth-right-item-time">4月21日 9:15 - 4月23日 17:25</div>
+            <div class="forth-right-item-cont">XXXXXXXXXXXXXXXXXXXXXXX</div>
+            <div class="forth-right-left-tip"><span class="forth-word3">2人已报名 | 0人关注</span></div>
+            </div>
+           </div>
+         </div>
+         <div class="forth-right3">
+            <div class="forth-right-item3">
+            <div class="row forth-right-item-3-head">
+            <div class="col-md-6 forth-right-item-3-title">
+            <span class="forth-right-word1">XXXXX</span><span class="forth-right-word2">XXX</span></div>
+            <div class="col-md-6 main-right-item-3-right" align="right">更多
+            <span class="glyphicon glyphicon-menu-right"></span></div>
+            </div>
+            <div class="forth-right-item-3-cont">
+            <div class="forth-right-item-3-pic">
+                <span class="forth-right-item-3-num">第128期</span>
+            </div>
+            </div>
+            </div>
+         </div>  
+        </div>
+        
+
+    </div>
+</div>
+
 </body>
 </html>
