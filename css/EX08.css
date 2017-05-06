@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-05-04 14:13:22
+ * @version $Id$
+ */
+#myMap1,#myMap2,#myMap3{
+	position: absolute;
+	left: 10px;
+	top:10px;
+	width: 1200px;
+	height: 600px;
+	margin-top: 17px;
+	margin-left: -10px;
+}
+#route{
+	position: absolute;
+	z-index:1;
+}
+.start{
+	margin-left: 60px;
+	margin-top: 30px;
+}
+.ending{
+	margin-left: 60px;
+	margin-top: -5px;
+}
+.bttn{
+	margin-top: 0px;
+	margin-left: 10px;
+}
+#results{
+	position: absolute;
+	left: 1000px;
+	top:25px;
+	width: 20%;
+	height: 100%;
+}
+
+.guideMenu-ul{
+	box-sizing: border-box;
+	width: 180px;
+	height: 25px;
+	list-style: none;
+	margin:0px;
+	padding: 0px;
+}
+.guideMenu-ul-first{
+	box-sizing: border-box;
+	float: left;
+	width: 60px;
+	height: 25px;
+	background: #c0c0c0;
+	border-top: 1px solid gray;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+.guideMenu-ul-second,.guideMenu-ul-third{
+	box-sizing: border-box;
+	float: left;
+	width: 60px;
+	height: 25px;
+	border-top: 1px solid gray;
+	border-right: 1px solid gray;
+}
+.content1{
+	box-sizing: border-box;
+	border: 1px solid gray;
+	width: 1200px;
+	height: 600px;
+}
+.content2,.content3{
+	box-sizing: border-box;
+	border: 1px solid gray;
+	width: 1200px;
+	height: 600px;
+}

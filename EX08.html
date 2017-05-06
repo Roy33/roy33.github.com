@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>EX08</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="css/EX08.css" rel="stylesheet">
+<link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
+<link href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    	<div class="guideMenu">
+    		<ul class="guideMenu-ul">
+    			<li class="guideMenu-ul-first"></li>
+    			<li class="guideMenu-ul-second"></li>
+    			<li class="guideMenu-ul-third"></li>
+    		</ul>
+    	</div>
+    	<div class="content1">
+    	     <div id="myMap1"></div>
+    	</div>
+    	<div class="content2">
+    	    <div id="myMap2"></div>
+    	    <div id="route">
+    	    	<p class="start">起点：<span><input type="text" id="begin"></input></span></p>
+                <p class="ending">终点：<span><input type="text" id="end"></input></span><span><button class="bttn" onclick="search()">查询</button></span></p>
+                
+    	    </div>
+            <div id="results"></div>
+    	</div>
+    	<div class="content3">
+    	    <div id="myMap3"></div>
+            <div id="tushuguan" >
+                <img src="image/EX08/图书馆.jpg"/>
+                <div>
+                <p style="font-size: 16px;margin-left: 15px;margin-bottom: 0px;margin-top: 10px;">杭师大图书馆</p>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color: red;margin-left: 15px;"></span>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color: red;"></span>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color: red;"></span>
+                <p style="color: gray;margin-left: 15px;margin-top: -5px;">勤慎诚恕 博雅精进 <button class="btn" style="margin-left: 120px;">查看详情</button></p>
+                </div>
+            </div>
+            <div id="shuyuan" >
+                <img src="image/EX08/恕园.jpg"/>
+                <div>
+                <p style="font-size: 16px;margin-left: 15px;margin-bottom: 0px;margin-top: 10px;">恕园XXX</p>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color: red;margin-left: 15px;"></span>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color: red;"></span>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color: red;"></span>
+                <p style="color: gray;margin-left: 15px;margin-top: -5px;">勤慎诚恕 博雅精进 <button class="btn" style="margin-left: 120px;">查看详情</button></p>
+                </div>
+            </div>
+            <div id="bowenyuan" >
+                <img src="image/EX08/博文苑.jpg"/>
+                <div>
+                <p style="font-size: 16px;margin-left: 15px;margin-bottom: 0px;margin-top: 10px;">博文苑XX</p>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color: red;margin-left: 15px;"></span>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color: red;"></span>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color: red;"></span>
+                <p style="color: gray;margin-left: 15px;margin-top: -5px;">勤慎诚恕 博雅精进 <button class="btn" style="margin-left: 120px;">查看详情</button></p>
+                </div>
+            </div>
+            <div id="chaoshi" >
+                <img src="image/EX08/超市.jpg"/>
+                <div>
+                <p style="font-size: 16px;margin-left: 15px;margin-bottom: 0px;margin-top: 10px;">杭师大超市</p>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color: red;margin-left: 15px;"></span>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color: red;"></span>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color: red;"></span>
+                <p style="color: gray;margin-left: 15px;margin-top: -5px;">勤慎诚恕 博雅精进 <button class="btn" style="margin-left: 120px;">查看详情</button></p>
+                </div>
+            </div>
+            <div id="tiyuchang" >
+                <img src="image/EX08/体育场.jpg"/>
+                <div>
+                <p style="font-size: 16px;margin-left: 15px;margin-bottom: 0px;margin-top: 10px;">杭师大体育场</p>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color: red;margin-left: 15px;"></span>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color: red;"></span>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color: red;"></span>
+                <p style="color: gray;margin-left: 15px;margin-top: -5px;">勤慎诚恕 博雅精进 <button class="btn" style="margin-left: 120px;">查看详情</button></p>
+                </div>
+            </div>
+            <div id="shitang" >
+                <img src="image/EX08/食堂.jpg"/>
+                <div>
+                <p style="font-size: 16px;margin-left: 15px;margin-bottom: 0px;margin-top: 10px;">杭师大餐厅</p>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color: red;margin-left: 15px;"></span>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color: red;"></span>
+                <span class="glyphicon glyphicon-heart" aria-hidden="true" style="color: red;"></span>
+                <p style="color: gray;margin-left: 15px;margin-top: -5px;">勤慎诚恕 博雅精进 <button class="btn" style="margin-left: 120px;">查看详情</button></p>
+                </div>
+            </div>
+
+
+    	    </div>
+   
+
+</body>
+<script type="text/javascript" src="lib/jQuery/jquery-3.2.1.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=NM454Xaqt5zUz8g1oDpcBC8pmMzG3FIi"></script>
+<script src="js/EX08.js"></script>
+</html>
